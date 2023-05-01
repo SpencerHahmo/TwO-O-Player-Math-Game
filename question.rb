@@ -1,6 +1,6 @@
 class Question
 
-  attr_accessor :order
+  attr_reader :order
 
   def initialize(order)
     @order = order
